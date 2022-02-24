@@ -52,12 +52,13 @@ body {
 .bizcards {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 290px;
     height: 416px;
     background-color: #fff;
     flex-direction: column;
     padding: 27px;
+    padding-bottom: 60px;
 }
 
 .bizcards h2 {
