@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+    a{
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* ----------------------------------CSS reset end------------------------------------------------------ */
+
+body {
+    background-color: #ffeedf;
+    
+}
+
+#root {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 62px;
+}
+
+.bizcards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 290px;
+    height: 416px;
+    background-color: #fff;
+    flex-direction: column;
+    padding: 27px;
+}
+
+.bizcards h2 {
+    color: #33793f;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: 48px;
+}
+
+.bizcards h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 0.1em;
+}
+
+.bizcards p {
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    color: #999;
+    font-size: 24px;
+}
